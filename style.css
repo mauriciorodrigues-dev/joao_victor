@@ -30,3 +30,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: rgb(5, 74, 177);
+}
