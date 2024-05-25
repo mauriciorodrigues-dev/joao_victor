@@ -10,11 +10,8 @@
       src="https://kit.fontawesome.com/fc1d6ae1da.js"
       crossorigin="anonymous"
     ></script>
+    <style></style>
     <style>
-      table {
-        border-collapse: collapse;
-        width: 30%;
-      }
       th,
       td {
         border: 1px solid black;
@@ -24,17 +21,112 @@
       th {
         background-color: #f2f2f2;
       }
+      details {
+        border-bottom: 0.1rem solid #ccc;
+        width: 30%;
+        margin: 2rem 0;
+        padding: 1rem 0;
+      }
+      details table {
+        margin: 1rem 0rem 1rem 3rem;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      @media (width < 500px) {
+        details {
+          width: 100%;
+          overflow-x: auto;
+        }
+        
+      }
     </style>
   </head>
   <body>
     <h2>João Victor - Página Treino</h2>
     <a href="dieta.html">Página dieta</a><br />
-    <a href="index.html">Clique aqui para Voltar</a>
+    <a href="index.html">Página Principal</a>
     <h3>Tabela de Treinamento</h3>
     <!-- como utilizar as tags summary e details no html? -->
-   
+    <!-- como criar um scroll lateral para uma tabela? -->
+
     <details>
       <summary>Segunda-Feira</summary>
+      <table>
+        <tr>
+          <th>Nº</th>
+          <th>Exercício</th>
+          <th>Séries</th>
+          <th>Repetições</th>
+          <th>Observação</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Exercício Teste 1</td>
+          <td>5</td>
+          <td>10</td>
+          <td>Sem obs</td>
+        </tr>
+      </table>
+    </details>
+    <details>
+      <summary>Terça-Feira</summary>
+      <table>
+        <tr>
+          <th>Nº</th>
+          <th>Exercício</th>
+          <th>Séries</th>
+          <th>Repetições</th>
+          <th>Observação</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Exercício Teste 1</td>
+          <td>5</td>
+          <td>10</td>
+          <td>Sem obs</td>
+        </tr>
+      </table>
+    </details>
+    <details>
+      <summary>Quarta-Feira</summary>
+      <table>
+        <tr>
+          <th>Nº</th>
+          <th>Exercício</th>
+          <th>Séries</th>
+          <th>Repetições</th>
+          <th>Observação</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Exercício Teste 1</td>
+          <td>5</td>
+          <td>10</td>
+          <td>Sem obs</td>
+        </tr>
+      </table>
+    </details>
+    <details>
+      <summary>Quinta-Feira</summary>
+      <table>
+        <tr>
+          <th>Nº</th>
+          <th>Exercício</th>
+          <th>Séries</th>
+          <th>Repetições</th>
+          <th>Observação</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Exercício Teste 1</td>
+          <td>5</td>
+          <td>10</td>
+          <td>Sem obs</td>
+        </tr>
+      </table>
+    </details>
+    <details>
+      <summary>Sexta-Feiraa</summary>
       <table>
         <tr>
           <th>Nº</th>
@@ -55,3 +147,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
